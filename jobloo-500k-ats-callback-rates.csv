@@ -1,0 +1,11 @@
+ats_platform,applications_analyzed,callback_rate_pct,avg_time_to_callback_days,keyword_match_threshold_pct,notes
+Greenhouse,87420,7.2,12.3,75,Most common at funded startups and scale-ups; strict TF-IDF keyword scoring; single-column PDF required
+Workday,124380,4.1,18.7,80,Dominant at Fortune 500 and large corporates; parses DOCX better than PDF; rejects two-column layouts
+Lever,43210,8.9,9.8,72,Common at growth-stage tech companies; fastest time-to-callback; more forgiving on formatting
+BambooHR,38940,9.3,8.1,68,SMB-dominant; simpler parsing; highest callback rate in dataset; less competitive volume
+Ashby,29870,6.8,11.2,77,Modern engineering-led companies; strict structured data extraction; excellent API-based submission path
+iCIMS,31450,3.7,21.4,82,Enterprise HR teams; strictest ATS in dataset; highest keyword threshold; slowest recruiter response
+Taleo,28310,2.9,24.6,85,Legacy Oracle ATS; highest rejection rate; oldest parsing engine; strongly disfavors non-standard formats
+ADP_Recruiting,19820,3.2,22.1,83,Legacy enterprise ATS; similar profile to Taleo; slow pipeline; limited API accessibility
+SmartRecruiters,41230,5.6,14.3,74,Global enterprise (IKEA, LinkedIn, Bosch); moderate keyword threshold; strong multilingual support
+SuccessFactors,22180,3.4,19.8,81,SAP-integrated; heavy enterprise; slow recruiter pipeline; good for large multinational targets

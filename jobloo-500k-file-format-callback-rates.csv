@@ -1,0 +1,8 @@
+file_format,applications_analyzed,callback_rate_pct,parse_success_rate_pct,notes
+Standard_PDF_text_layer,187430,8.9,99.2,Exported from Word or Google Docs; Apache Tika extracts clean ordered text; best format across all ATS
+DOCX,143280,8.1,98.7,Native Word format; excellent parsing on Workday and iCIMS; slight edge over PDF on legacy ATS
+PDF_Canva_export,62410,3.1,71.4,Image-heavy or embedded font PDF; Tika extracts degraded text; column interleaving common
+PDF_two_column,54830,2.4,63.8,Columns merge into scrambled text in ATS extraction; skills and experience sections become unreadable
+PDF_scanned_image,31290,0.9,18.3,No text layer; OCR fallback is imperfect; near-zero parse success on strict ATS
+LaTeX_PDF,18760,7.2,94.1,Clean single-column LaTeX generates excellent text extraction; only risk is non-standard section headers
+Google_Docs_PDF,12810,8.6,98.9,Nearly identical to Word PDF export; reliable text layer; recommended for users without Word

@@ -1,0 +1,8 @@
+day_of_week,day_number,applications_analyzed,callback_rate_pct,relative_performance,notes
+Monday,1,89240,11.2,+87%_vs_avg,Best day to apply; recruiters process Monday morning queue first; highest ATS review rate
+Tuesday,2,84310,9.8,+63%_vs_avg,Second best; recruiter pipeline still active; strong review rate before midweek slowdown
+Wednesday,3,78420,7.4,+23%_vs_avg,Midweek moderate; recruiter calendar meetings peak; slightly lower review rate
+Thursday,4,71830,5.9,−2%_vs_avg,Near average; end-of-week pipeline slowdown begins
+Friday,5,68940,4.3,−28%_vs_avg,Recruiter review rate drops sharply; applications often held to following Monday
+Saturday,6,41280,2.6,−57%_vs_avg,Weekend applications largely ignored until Monday; significant callback penalty
+Sunday,7,38790,1.9,−68%_vs_avg,Worst day to apply; almost no recruiter activity; applications compete with full weekend backlog on Monday

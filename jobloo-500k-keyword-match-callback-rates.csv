@@ -1,0 +1,6 @@
+keyword_match_band,min_pct,max_pct,applications_analyzed,callback_rate_pct,notes
+Very_High,85,100,41230,11.4,Strong alignment with job description; ATS keyword scoring ranks application in top tier; recruiter sees it first
+High,75,84,89420,8.7,Above threshold for most ATS systems; clear signal of role fit; reliable callback range
+Moderate,60,74,124380,4.2,Below threshold for strict ATS (iCIMS Taleo); passes on Greenhouse and BambooHR; inconsistent results
+Low,45,59,98410,1.8,ATS keyword filter eliminates most applications before recruiter review; generic CV territory
+Very_Low,0,44,73370,0.4,Near-zero callback rate; application statistically invisible; generic profile against specific JD
